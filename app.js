@@ -8,10 +8,10 @@ const array = [
 ];
 const currentYear = 2021;
 for (let person of array) {
-    // console.log(person);// console log all object
-    // console.log(person.name); // log the names
-    // console.log(currentYear - person.age); // log the years of birth
-    // console.log(`${person.name} is ${person.profession}`); // log name and profession 
+    console.log(person);// console log all object
+    console.log(person.name); // log the names
+    console.log(currentYear - person.age); // log the years of birth
+    console.log(`${person.name} is ${person.profession}`); // log name and profession 
     if (person.age >= 50) {
         console.log(`${person.name} is over 50. His age is ${person.age} `); // log person over the 50 years
     }
